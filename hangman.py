@@ -1,6 +1,7 @@
 import random
 
-words = ["Hashmap", "Spotify", "Steam", "Switch", "Witcher", "Doctor", "Guitar"]
+words = ["hashmap", "spotify", "steam", "switch", "witcher", "doctor", "gs"
+"guitar"]
 
 chosen_word = random.choice(words)
 guessed_word = ["_"] * len(chosen_word)
